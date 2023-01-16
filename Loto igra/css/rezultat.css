@@ -1,0 +1,65 @@
+textarea, select, input, button {
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  height: 100vh;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-around;
+  max-width: 960px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.number-wrapper {
+  width: 70px;
+  height: 70px;
+  margin-top: 50px;
+  border-radius: 50%;
+  background: #DBCC67;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset -15px -15px 35px rgba(0,0,0,.5);
+}
+
+.number {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  border-radius: 5px;
+  color: #CEB13E;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 960px;
+  margin-top: 50px;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  padding: 20px;
+}

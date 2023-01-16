@@ -1,0 +1,16 @@
+1. Globalne i lokalne promenljive
+2. Rad sa nizovima i ugradjenim funkcijama na nizovima
+3. alert, window (Non javascript)
+4. Manipulacija dom stablom (document.write, document.getElementById)
+5. RegExp i njegove ugradjene metode
+6. for i while petlje
+7. Rad sa ugradjenim Date objektom i njegovim funkcijama
+8. Stilizovanje stabla kroz javascript (npr. document.getElementById('login').style.display = 'none');
+9. Rad sa ugradjenim Math objektom i njegovim funkcijama
+10. Koriscenje Scope-a i Closure-a (dohvatanje podataka o korisniku prilikom pokretanja igre u svrhu ispisivanja rezultata igre u novom prozoru)
+11. Dohvatanje podataka iz html forme pomocu funkcija iz javascript-a
+12. Uslovno prikazivanje html elemenata
+13. Prikazivanje i zatvaranje modala uz pomoc javascript funkcija na klik dugmeta
+14. Validacija unetih podataka i prikazivanje upozorenja pomocu alert-a u slucaju neispravnih podataka
+15. Kreiranje html elemenata i dodavanje u stablo html-a pomocu javascript-a
+16. Generisanje random brojeva u odredjenom rangu brojeva
