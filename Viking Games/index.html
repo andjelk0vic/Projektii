@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Viking Games</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo-01.png">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body class="body">
+    <div class="top-bar">
+        <div class="logo">
+            <IMG class= "logoItem" src="images/logo-01.png" alt="Logo" width=80 height=80>
+        </div>
+        <div class="menu">
+                <ul>
+                    <li><a id="homeC" href="index.html">Home</a></li>
+                    <li><a href="html/about.html">About</a></li>
+                    <li><a href="html/portfolio.html">Games</a></li>
+                    <li><a href="html/contact.html">Contact</a></li>
+                </ul>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="banner-text">
+            <div class="banner-text-items">
+                <h2>Viking Games</h2>
+                <p>We bring the fun to you</p>
+            </div>
+        </div>
+    </div>
+
+    <div class=supportedSystems>
+        <h1>Supported systems</h1>
+    </div>
+
+<div class="Slick-container">
+    <div class="main-content">
+        <div class="main1">
+            <h2>Android</h2>
+            <img src="images/android.png" alt="Android" width = 250 height=250>
+        </div>
+        <div class="main1">
+                <h2>iOS</h2>
+                <img src="images/ios13.png" alt="ios" width = 250 height= 250>
+        </div>
+        <div class="main1">
+                <h2>Desktop</h2>
+                    <img src="images/pc.png" alt="react" width = 250 height= 250>
+        </div>
+        <div class="main1">
+            <h2>Xbox</h2>
+            <img src="images/xbox.png" alt="Android" width = 250 height=250>
+        </div>
+    </div>
+</div>
+
+
+    <div class="contact">
+        <div class="contact-text">
+            <div class="contact-items">
+                <h2>Contact Us</h2>
+                <!-- asddsadaddsadsadada -->
+                <form onsubmit="return validateForm()">
+
+                        <div class="wrapper">
+                            <div class="contact-form">
+                    
+                                <div class="input-fields">
+                                    <input type="text" id="name"class="input" placeholder="Name">
+                                    <input type="email" id="email" class="input" placeholder="Email"> 
+                                    <input type="text" id="phone" class="input" placeholder="Phone">
+                                    <input type="text" id="subject" class="input" placeholder="Subject">
+                                    <p class="gender">
+                                        <input type="radio" name="gender" value="Male"> Male &nbsp;
+                                        <input type="radio" name="gender" value="Female"> Female
+                                    </p>
+                                </div>
+                                <div class="msg">
+                                    <textarea id="message" placeholder="Message"></textarea>
+                                    <button class="btn" type="submit">SEND</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- asedadsadsafdadsadasdasdsadsadsadsa -->
+                
+            </div>
+        </div>
+        <div class="partner-text">
+            <div class="partner-items">
+                    <h2>Partners</h2>
+                    <a href="https://apple.com" target="_blank"><img src="images/icon.png" alt="Apple" width=30 height=30></a>
+                    <a href="https://www.google.com/" target="_blank"><img src="images/search.png" alt="Google" width=30 height=30></a>
+                    <a href="https://www.amazon.com/" target="_blank"><img src="images/amazon.png" alt="Amazon" width=30 height=30></a>
+                    <a href="https://www.paypal.com/rs/home" target="_blank"><img src="images/paypal.png" alt="PayPal" width=30 height=30></a>
+            </div>
+        </div>
+        <div class="socialNetworks-text">
+            <div class="socialNetworks-items">
+                    <h2>Social Networks</h2>
+                    <a href="https://web.facebook.com/" target="_blank"><IMG src="images/facebook.png" alt="Logo" width=30 height=30></a>
+                    <a href="https://www.youtube.com/" target="_blank"><IMG src="images/youtube.png" alt="Logo" width=30 height=30></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><IMG src="images/linkedin.png" alt="Logo" width=30 height=30></a>
+                    <a href="https://www.instagram.com/" target="_blank"><IMG src="images/instagram.png" alt="Logo" width=30 height=30></a>
+                    <a href="https://twitter.com/" target="_blank"><IMG src="images/twitter.png" alt="Logo" width=30 height=30></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <span>
+            <p>Copyright © 2022 Viking Games Inc. All rights reserved.</p>
+            <p><a href="">Privacy Policy</a> | <a href="">Terms of use</a></p>
+        </span>
+    </div>
+
+
+<!-- (html comment removed:  jQuery ) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- (html comment removed:  Slick ) -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script>
+    $('.main-content').slick({
+      fade: true,
+      cssEase: 'ease-in-out'
+    });
+  </script>
+<script src="javascript/forma.js"></script>
+</body>
+</html>
