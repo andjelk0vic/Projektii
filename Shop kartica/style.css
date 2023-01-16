@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;;
+    font-family: 'Lato', sans-serif;;
+}
+
+.holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #453750;
+}
+
+.card {
+    position: relative;
+    width: 360px;
+    height: 500px;
+    background-color: #73648a;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px 0px #594f68;
+    transition: 0.3s;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: -55%;
+    width: 100%;
+    height: 100%;
+    background-color: #888a9f;
+    transform: skewY(345deg);
+    transition: 0.3s;
+}
+
+.card:hover:before {
+    top: -70%;
+    transform: skewY(390deg);
+}
+
+.card .img-box {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px ;
+    z-index: 1;
+}
+
+.card .img-box {
+    max-width: 100%;
+    transition: 0.3s;
+}
+
+.card:hover .img-box img {
+    max-width: 95%;
+}
+
+.card .content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.card .content h3,
+.card .content h2 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff
+}
+
+.card .content h2 {
+    font-size: 1.7rem;
+    padding-top: 0.7rem;
+}
+
+.card .content a {
+    position: relative;
+    top: 200px;
+    opacity: 0;
+    padding: 10px 30px;
+    margin-top: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    background: #644f81;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.card:hover a {
+    top: 0;
+    opacity: 1;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 10px 10px 5px 8px #644f81;
+}
