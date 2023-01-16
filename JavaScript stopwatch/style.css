@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Shizuru', cursive;
+}
+
+body {
+    background: linear-gradient(to left, #c3e9ee, #d7d2f0);
+}
+
+.holder {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.holder h1 {
+    font-size: 2.7rem;
+    margin: 3rem 0;
+    letter-spacing: 1px;
+}
+
+.holder p {
+    font-size: 2.3rem;
+    padding: 1.7rem 0;
+}
+
+.img-holder {
+    width: 350px;
+}
+
+.img-holder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.buttons button {
+    padding: 0.6rem 1.4rem;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    border: 2px solid #553ec4;
+    border-radius: 0.5rem;
+    letter-spacing: 1px;
+    outline: 0;
+    transition: 0.15s ease-in-out;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    background-color: #553ec4;
+    color:  #fff;
+}
+
