@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALFA BK UNIVERZITET</title>
+
+    <!-- ICONSCOUT CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <!-- GOOGLE FONTS (MONTSERRAT) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <style>
+        body { background-image: url("./images/bg-texture.png") }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><h4>Alfa BK Univerzitet</h4></a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="about.html">O nama</a></li>
+                <li><a href="courses.html">Kursevi</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+                <li><a href="#">Kviz</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!--========================== END OF NAVBAR ============================-->
+
+
+
+
+
+
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <h1>Da biste bili sigurni u Vaš izbor odradite kviz profesionalne orijentacije. Pre nego što upišete neki od naših fakulteta, pred Vama se nalazi kviz koji će Vam pomoći da se odlučite!</h1>
+
+            </div>
+            
+            <div class="header__right">
+                <div class="header__right-image">
+                    <img src="./images/header.svg">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--========================== END OF HEADER ============================-->
+
+
+
+
+
+
+
+    <form class="kviz">
+        <h3>Pitanje 1: Sta je ono u cemu ste najbolji?</h3><br>
+        <input type="radio" name="answer1" value="Paris"> organizacija <br>
+        <input type="radio" name="answer2" value="Rome"> fizicka aktivnost<br>
+        <input type="radio" name="answer3" value="London"> strani jezici<br>
+        <input type="radio" name="answer4" value="Rome"> rad na racunaru<br>
+        <input type="radio" name="answer5" value="London"> racunanje i kalkulacije<br><br>
+        <h3>Pitanje 2: Koji od ponudjenih odgovora Vas najbolje opisuje?</h3><br>
+        <input type="radio" name="answer1" value="Earth"> organizovani<br>
+        <input type="radio" name="answer2" value="Jupiter"> aktivni<br>
+        <input type="radio" name="answer3" value="Saturn"> drustveni i komunikativni<br>
+        <input type="radio" name="answer4" value="Rome"> povuceni<br>
+        <input type="radio" name="answer5" value="London"> analiticki<br><br>
+        <h3>Pitanje 3: Koji od ponudjenih predmeta ste najlakse ucili u srednjoj skoli? </h3><br>
+        <input type="radio" name="answer1" value="Leonardo da Vinci"> ekonomija<br>
+        <input type="radio" name="answer2" value="Vincent van Gogh"> fizicko vaspitanje<br>
+        <input type="radio" name="answer3" value="Michelangelo"> strane jezike<br>
+        <input type="radio" name="answer4" value="Rome"> informatika<br>
+        <input type="radio" name="answer5" value="London"> matematika<br><br>
+        <h3>Pitanje 4: U kakvom okruzenju biste voleli da radite kad zavrsite fakultet?</h3><br>
+        <input type="radio" name="answer1" value="Nile"> rad u grupama u kancelariji<br>
+        <input type="radio" name="answer2" value="Congo"> u inostranstvu, prirodi<br>
+        <input type="radio" name="answer3" value="Amazon"> u obrazovnim ustanovama<br>
+        <input type="radio" name="answer4" value="Rome"> mogucnost biranja rada od kuce ili kancelariji<br>
+        <input type="radio" name="answer5" value="London"> kancelarijski posao, u timu, gde svako radi radi za sebe<br><br>
+        <br>
+        <input class="dugmekviz" id="dugme1" type="button" value="Potvrdi" onclick="showResults()">
+
+      </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <footer>
+        <div class="container footer__container">
+          <div class="footer__1">
+            <a href="index.html" class="footer__logo"><h4>Alfa BK Univerzitet</h4></a>
+            <p>
+              Prvi privatni Univerzitet u Srbiji.
+            </p>
+          </div>
+  
+          <div class="footer__2">
+            <h4>Linkovi</h4>
+            <ul class="permalinks">
+              <li><a href="index.html">Početna</a></li>
+              <li><a href="about.html">O nama</a></li>
+              <li><a href="courses.html">Kursevi</a></li>
+              <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+          </div>
+  
+          <div class="footer__3">
+            <h4>Uslovi</h4>
+            <ul class="privacy">
+              <li><a href="#">Politika privatnosti</a></li>
+              <li><a href="#">Karijera</a></li>
+              <li><a href="#">Novosti</a></li>
+            </ul>
+          </div>
+  
+          <div class="footer__4">
+            <h4>Kontaktirajte nas</h4>
+            <div>
+              <p>011-260 9754</p>
+              <p> info@alfa.edu.rs</p>
+            </div>
+  
+            <ul class="footer__socials">
+              <li>
+                <a href="https://www.facebook.com/univerzitetalfabk/"><i class="uil uil-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/alfa_bk_univerzitet/"><i class="uil uil-instagram-alt"></i></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/univerzitetalfa?lang=en"><i class="uil uil-twitter"></i></a>
+              </li>
+              <li>
+                <a href="https://rs.linkedin.com/company/alfa-bk-university"><i class="uil uil-linkedin-alt"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; Alfa BK Univerzitet</small>
+        </div>
+      </footer>
+
+
+
+      <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+      <script src="./main.js"></script>
+
+
+      <script>
+          // slides for testimonials section
+          var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            },
+            // when window width is >= 600px
+            breakpoints: {
+                600: {
+                    slidesPerView: 2
+                }
+            }
+        });
+      </script>
+
+        
+ <script>
+    function showResults(){
+    
+    var answerCount = [0, 0, 0, 0, 0];
+    
+    
+    var answer1 = document.querySelector('input[name="answer1"]:checked');
+    var answer2 = document.querySelector('input[name="answer2"]:checked');
+    var answer3 = document.querySelector('input[name="answer3"]:checked');
+    var answer4 = document.querySelector('input[name="answer4"]:checked');
+    var answer5 = document.querySelector('input[name="answer5"]:checked');
+    
+    if (answer1 && answer1.value) {
+        answerCount[answer1.value]++;
+    }
+    
+    if (answer2 && answer2.value) {
+        answerCount[answer2.value]++;
+    }
+    
+    if (answer3 && answer3.value) {
+        answerCount[answer3.value]++;
+    }
+    
+    if (answer4 && answer4.value) {
+        answerCount[answer4.value]++;
+    }
+    
+    if (answer5 && answer5.value) {
+        answerCount[answer5.value]++;
+    }
+    
+    // Find the answer with the highest count
+    var mostFrequentAnswer = -1;
+    var maxCount = -1;
+    for (var i = 0; i < answerCount.length; i++) {
+        if (answerCount[i] > maxCount) {
+            maxCount = answerCount[i];
+            mostFrequentAnswer = i;
+        }
+    }
+    
+    // Determine if the most frequent answer is the correct one
+    if (mostFrequentAnswer == CORRECT_ANSWER) {
+        alert("The most frequent answer is the correct one!");
+    } else {
+        alert("The most frequent answer is not the correct one.");
+    }}
+      
+    </script> 
+    
+
+</body>
+</html>
